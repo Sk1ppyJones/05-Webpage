@@ -58,7 +58,7 @@ footer {
     text-shadow: .2em .1em .2em #e6eaf7;
 }
 
-.header ul{
+.header ul {
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -135,7 +135,7 @@ h3 {
 }
 
 .series-breakdown img {
-    width: 99vw;
+    width: 100%;
     align-content: center;
     margin-top: 1em;
     border: .5em solid #759eb6;
@@ -156,6 +156,7 @@ h3 {
 .series-list li {
     width: 90vw;
     list-style-type: none;
+    padding: .3em;
 }
 
 .themes {
@@ -214,7 +215,7 @@ footer p {
 
     .header {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         font-size: 5em;
         flex-wrap: wrap;
         align-items: center;
@@ -227,9 +228,9 @@ footer p {
         text-shadow: .2em .1em .2em #e6eaf7;
     }
 
-    .header ul{
+    .header ul {
         display: flex;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         list-style-type: none;
         align-items: center;
         align-content: center;
@@ -262,13 +263,13 @@ footer p {
         max-width: 100%;
         flex-direction: row;
         text-align: left;
-        align-items:flex-start;
+        align-items: flex-start;
         align-content: space-between;
     }
 
     .intro-content {
         display: flex;
-        flex-direction: row ;
+        flex-direction: row;
         max-width: 45%;
     }
 
@@ -323,7 +324,7 @@ footer p {
     }
 
     .series-breakdown img {
-        width: 99vw;
+        width: 30vw;
         align-content: center;
         margin-top: 1em;
         border: .5em solid #759eb6;
@@ -335,15 +336,30 @@ footer p {
         width: 99vw;
     }
 
+    .all-breakdowns {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .all-breakdowns ul {
+        padding: 1em;
+        flex-direction: column;
+    }
+
     .series-list {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        border: .5em solid #759eb6;
+        border-radius: 2em;
     }
 
     .series-list li {
-        width: 90vw;
+        font-size: 1.5em;
+        width: 30vw;
         list-style-type: none;
+        padding: .3em;
     }
 
     .themes {
