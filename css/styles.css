@@ -5,21 +5,27 @@
 
 body {
     background-color: #d2dbf3;
+    background-image: linear-gradient(#d2dbf3, #759eb6);
+    background-attachment: fixed;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
-    overflow:scroll;
+    overflow: scroll;
 }
 
 
 /* Mobile Styles */
+
+body p {
+    margin: .5em;
+}
 
 footer {
     background-color: #759eb6;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content:center;
+    align-content: center;
     text-align: center;
     margin: 0;
     padding: .2em;
@@ -27,7 +33,7 @@ footer {
 
 .flex-container {
     display: flex;
-    width: 100%;
+    width: 99vw;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -42,7 +48,7 @@ footer {
     justify-content: center;
     font-size: 3em;
     flex-wrap: wrap;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
 
     background-color: #759eb6;
@@ -75,12 +81,12 @@ nav a {
 .intro {
     flex-direction: column;
     text-align: center;
-    margin: 1em;
 }
 
 .intro img {
-    max-width: 90vw;
+    max-width: 99%;
     margin-bottom: .5em;
+    margin: 0;
 }
 
 .intro h3 {
@@ -92,23 +98,77 @@ nav a {
     margin-top: .5em;
 }
 
-h2{
+h2 {
     justify-content: center;
     align-items: center;
     display: flex;
-    font-size: 100%;
+    font-size: 1.4em;
     border: .1em solid rgb(66, 147, 161);
     border-radius: 1em;
     margin: .5em;
     padding: .3em;
     padding-inline: .5em;
     text-align: center;
+
+    background-image: linear-gradient(#759eb6, #e6eaf7);
+    box-shadow: .1em .1em .3em black;
 }
 
+h3 {
+    text-decoration: underline;
+    font-size: 1.3em;
+    margin-bottom: .2em;
+    margin-top: .2em;
+}
 
+.series-breakdown {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+}
+
+.series-breakdown img {
+    width: 99vw;
+    align-content: center;
+    margin-top: 1em;
+    border: .5em solid #759eb6;
+    box-shadow: 0em .3em .5em black;
+}
+
+.series-breakdown li {
+    text-align: center;
+    width: 99vw;
+}
+
+.series-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.series-list li {
+    width: 90vw;
+    list-style-type: none;
+}
+
+.themes {
+    text-align: center;
+    width: 99vw;
+}
+
+.why-read {
+    text-align: center;
+    width: 99vw;
+}
 
 .outro {
+    text-align: center;
     margin-bottom: 1em;
+    width: 99vw;
+}
+
+footer p {
+    margin: 0;
 }
 
 /* Desktop Styles */
