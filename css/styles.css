@@ -13,6 +13,11 @@ body {
     overflow: scroll;
 }
 
+.desktopimg {
+    transform: rotate(-90deg) translateY(10em) translateX(5em);
+    width: 40%;
+}
+
 
 /* Mobile Styles */
 
