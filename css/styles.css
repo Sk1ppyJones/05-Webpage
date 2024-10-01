@@ -367,6 +367,13 @@ footer p {
         width: 99vw;
     }
 
+    .themes p {
+        font-size: 2.5em;
+        border: .5em solid #759eb6;
+        padding: .5em;
+        border-radius: 3em;
+    }
+
     .why-read {
         text-align: center;
         width: 99vw;
@@ -374,6 +381,10 @@ footer p {
 
     .why-read ul {
         list-style-type: none;
+        font-size: 2.5em;
+        border: .5em solid #759eb6;
+        padding: .5em;
+        border-radius: 3em;
     }
 
     .outro {
@@ -382,7 +393,15 @@ footer p {
         width: 99vw;
     }
 
+    .outro p {
+        font-size: 2.5em;
+        border: .5em solid #759eb6;
+        padding: .5em;
+        border-radius: 3em;
+    }
+
     footer p {
+        font-size: 2em;
         margin: 0;
     }
 }
